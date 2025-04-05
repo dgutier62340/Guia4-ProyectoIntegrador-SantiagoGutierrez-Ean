@@ -30,7 +30,7 @@ Este proyecto incluye un backend con Node.js, una base de datos MySQL y una inte
 ## 🚀 Instrucciones para ejecutar
 
 ### 1. Clonar el repositorio
-git clone https://github.com/tu_usuario/techlogistics.git cd techlogistics
+git clone https://github.com/dgutier62340/Guia4-ProyectoIntegrador-SantiagoGutierrez-Ean.git cd techlogistics
 
 npm install
 
