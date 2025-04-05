@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>TechLogistics S.A.</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Enlace al CSS externo -->
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <div class="Main">
+
+    <h1>TechLogistics S.A.</h1>
+
+    <!-- CLIENTES -->
+    <section>
+      <h2>Registro de Clientes</h2>
+      <form id="form-cliente">
+        <input type="text" id="nombre" placeholder="Nombre del cliente" required><br>
+        <input type="email" id="email" placeholder="Correo electrónico" required><br>
+        <input type="text" id="telefono" placeholder="Teléfono" required><br>
+        <button type="submit">Agregar Cliente</button>
+      </form>
+
+      <h3>Lista de Clientes</h3>
+      <ul id="lista-clientes"></ul>
+    </section>
+
+    <!-- PEDIDOS -->
+    <section>
+      <h2>Registro de Pedidos</h2>
+      <form id="form-pedido">
+        <input type="number" id="id_cliente" placeholder="ID del cliente" required><br>
+        <input type="text" id="producto" placeholder="Producto solicitado" required><br>
+        <button type="submit">Agregar Pedido</button>
+      </form>
+
+      <h3>Lista de Pedidos</h3>
+      <ul id="lista-pedidos"></ul>
+    </section>
+
+    <script type="module" src="./js/main.js"></script>
+
+  </div>
+</body>
+</html>

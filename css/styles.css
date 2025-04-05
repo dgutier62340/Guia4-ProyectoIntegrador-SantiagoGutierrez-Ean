@@ -1,0 +1,55 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Main {
+    height: auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #2c3e50;
+    border-radius: 40px;
+  }
+  
+  h1, h2 {
+    color: #2c3e50;
+  }
+  
+  form {
+    margin-bottom: 30px;
+  }
+  
+  input {
+    padding: 8px;
+    margin: 4px;
+    width: 250px;
+  }
+  
+  button {
+    padding: 8px 15px;
+    margin-top: 10px;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  section {
+    margin-bottom: 50px;
+  }
+  
